@@ -1,0 +1,462 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+:root {
+    --primary: rgb(40, 180, 180);
+}    
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    list-style-type: none;
+}
+.header .logo{
+    display: flex;
+    align-items: center;
+}
+  
+  .header .logo h2 {
+    font-family: "Kaushan Script", cursive;
+    color: var(--primary);
+    font-size: 30px;
+  }
+.menu ul li {
+    margin-right: 20px;
+}
+.body {
+    box-sizing: border-box;
+    padding: 20px;
+    z-index: 0;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 1px;
+    color:var(--primary);
+    
+}
+/* .....................................2222.................................................... */
+
+.sec1 {
+  width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+    
+  .sec1 .left p {
+    color: var(--primary);
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+  
+  .sec1 .left h1 {
+    color: var(--primary);
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 1px;
+    font-size: 50px;
+  }
+  
+  .sec1 .left .btns {
+    display: flex;
+  }
+  
+  .sec1 .right img:hover {
+    width: auto;
+    transform: scale(0.95);
+    opacity: 0.7; 
+    transition: 0.6s;
+  }
+  
+  .sec1 .left .btns .btn a button {
+    margin: 50px 50px 0 0;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    padding: 5px;
+    width: 130px;
+    height: 35px;
+    border-radius: 1px;
+    letter-spacing: 1px;
+    font-size: 17px;
+  }
+  
+  .sec1 .left .btns .btn1 a button {
+    background-color: var(--primary);
+    color: #fff;
+  }
+  
+  .sec1 .left .btns .btn a button:hover {
+    background-color: var(--primary);
+    color: #fff;
+    transition: 0.5s;
+  }
+  /* .................................3333....................................... */
+
+  .quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 10px;
+    color:rgba(0, 0, 0, 0.712);
+    font-family: "Raleway", sans-serif;
+    
+    margin: 50px auto 50px auto;
+  }    
+  /* ...............................444.........................................  */
+
+  .section .bigbox .box {
+    margin-top: 0px;
+    justify-content: flex-start;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .section .bigbox {
+    margin-top: 0px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .section .bigbox .box h4 {
+    margin-top: 10px;
+    transform: translateY(-13px);
+  }
+  
+  .section .bigbox .box .circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translate(140px, -30px);
+  }
+  
+  .section .bigbox .box {
+    margin-top: 0px;
+    width: 200px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section .bigbox .head {
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+    background-color: var(--primary);
+    color: rgb(255, 255, 255);
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .section .bigbox .text {
+    width: 150px;
+    height: 100px;
+    background-color: var(--primary);
+    color: rgb(255, 255, 255);
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .section .bigbox .box i {
+    font-size: 30px;
+  }
+  
+  .section .bigbox .box:hover .head {
+    transform: translateY(-5px);
+    transition: 0.5s;
+  }
+  
+  .section .bigbox .box:hover p {
+    display: block;
+    transition: 0.5s;
+  }
+  .section .bigbox .box .text i {
+    transform: translateY(10px);
+  }
+  
+  .section .bigbox .box:hover .text i {
+    display: none;
+    transition: 0.5s;
+  }
+  
+  .section .bigbox .box:hover .text {
+    height: 150px;
+    transition: 0.5s;
+  }
+  
+  .section .bigbox .box p {
+    display: none;
+  }
+  
+  .line {
+    width: 70px;
+    height: 3px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: 30px auto 0 auto;
+  }
+/* ..........................................btn................................... */
+
+.signup{
+    width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.signup .btn a button {
+     width: 120px;
+     height: 30px;
+     background-color:var(--primary);
+     color: #fff;
+     border-style: none;
+     border-radius: 5px;
+}
+/* ...........................sec=3 stat.................................................. */
+ .sec2{
+   width:100%;
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+}
+.sec2 .jenish img {
+  width:90%;
+}
+.sec2 .jenish img:hover{
+    transform: scale(0.95);
+    opacity: 0.7; 
+    transition: 0.6s;
+}
+.sec5 {
+  width:100%;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+.sec5 .pica img{
+  width: 90%;
+}
+.sec5 .pica img:hover{
+  transform: scale(0.95);
+  opacity: 0.7;
+  transition: 0.6s;
+}
+.sec5 i{
+  margin-right: 15px;
+  font-size: 25px;
+  color: var(--primary)
+}
+.sec6 {
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+} 
+.sec6 img{
+    width:90%;
+}
+.sec6 .img img:hover {
+  transform: roted(36000);
+  opacity: 0.7;
+  transition: 0.6s;
+}
+/* .................................sec=4 stat.............................................. */
+
+.row{
+
+  text-align: center;
+
+  color:rgba(0, 0, 0, 0.712);
+  font-family: "Raleway", sans-serif;
+}
+.sec7 .z {
+      display: flex;
+      margin: 0 50px 0 50px;
+  
+}
+.sec7 .z1 {
+  justify-content:center;
+  align-items: center0;
+  color:black;
+ }
+ /* ...................................sec=5.................................. */
+
+
+.milan{
+ justify-content:space-around;
+ align-items: center;
+  display: flex;
+}
+/* ..........................................sec=6.................................... */
+
+.bA{
+  display: flex;
+  justify-content: center;
+}
+.bA .circle{
+  
+  height: 10px;
+  width: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+ border: 1px solid  black;
+}
+.bA .B {
+     background-color: var(--primary);
+}
+
+/* ....................................sec=7................................................. */
+
+
+.table {
+  text-align: center;
+  color: var(--primary);
+  margin-top: 50px;
+  color:rgba(0, 0, 0, 0.712);
+  font-family: "Raleway", sans-serif;
+}
+
+
+.box {
+  width: 100%;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+.box .card {
+  height:400px;
+ width: 300px;
+ color: var(--primary);
+ border-radius: 10px;
+box-shadow: 1px 1px 5px 1px rgba(0, 0, 0,0.5);
+}
+.box .card h2{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.box .card h4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box .card .price .left h1{
+ 
+  margin: 0px;
+  margin-right: 10px;
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box .card .price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box .card .price .right p{
+  margin: 0px;
+}
+.box .card .price .right span{
+  
+  font-size: 30px;
+  font-weight: bold;
+}
+.box .card .Line p{
+line-height: 30px;
+text-align: center;
+}
+.lion{
+  width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.box .card .lion button{
+    width: 120px;
+     height: 40px;
+     font-size: 20px;
+     margin-bottom: 50px;
+     background-color:var(--primary);
+     color: #fff;
+     border-style: none;
+     border-radius: 5px;
+}     
+  
+.box .card:hover{
+  background-color: var(--primary);
+  color: #fff;
+}
+
+.box .card:hover button{
+      background-color: #fff;
+      color: var(--primary);
+} 
+
+/* .............................sec=8........................................... */
+
+.sec11{
+  justify-content:space-around;
+ align-items: center;
+  display: flex;
+}
+.sec9{
+  text-align: center;
+  color: var(--primary);
+  margin-top: 50px;
+  color:rgba(0, 0, 0, 0.712);
+  font-family: "Raleway", sans-serif;
+}
+/* .....................sec=9............................................. */
+.sec12{
+  width: 100%;
+  display: flex;
+  margin: 50px auto; 
+  justify-content: center;
+  align-items: center;
+ 
+}
+.sec12 .text {
+  width: 900px;
+ background-color:var(--primary);
+  display: flex;
+  color: #fff;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.sec12 .sec15 {
+    
+  display: flex;
+  align-self: flex-start;
+  margin-top: 30px;
+}  
+.content {
+    display: flex;
+    align-items: center;
+}
+.contact i{
+ margin-right: 15px;
+}
+
+
+
